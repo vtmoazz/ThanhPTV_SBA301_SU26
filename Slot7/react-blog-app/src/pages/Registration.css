@@ -1,0 +1,19 @@
+.registration-page {
+    min-height: calc(100vh - 80px);
+}
+
+.registration-card {
+    max-width: 520px;
+}
+
+.registration-card h3 {
+    font-weight: 600;
+}
+
+.registration-card .form-label {
+    font-weight: 500;
+}
+
+.registration-card .btn-primary {
+    min-height: 45px;
+}

@@ -1,0 +1,213 @@
+/* Counter.css */
+
+/* Container chính */
+.counter-container {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+/* Card styling */
+.counter-card {
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  overflow: hidden;
+}
+
+.counter-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* Card body */
+.counter-card .card-body {
+  padding: 50px 40px;
+}
+
+/* Tiêu đề */
+.counter-title {
+  font-size: 32px;
+  color: #667eea;
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+}
+
+/* Mô tả */
+.counter-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Hiển thị giá trị counter */
+.counter-display {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+}
+
+.counter-value {
+  font-size: 72px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+/* Nút styling */
+.counter-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px !important;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.counter-btn:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.counter-btn:active:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.counter-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Button variants */
+.counter-btn.btn-success {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+}
+
+.counter-btn.btn-success:hover:not(:disabled) {
+  background: linear-gradient(135deg, #20c997 0%, #28a745 100%);
+}
+
+.counter-btn.btn-danger {
+  background: linear-gradient(135deg, #dc3545 0%, #ff6b6b 100%);
+}
+
+.counter-btn.btn-danger:hover:not(:disabled) {
+  background: linear-gradient(135deg, #ff6b6b 0%, #dc3545 100%);
+}
+
+.counter-btn.btn-secondary {
+  background: linear-gradient(135deg, #6c757d 0%, #8899aa 100%);
+}
+
+.counter-btn.btn-secondary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #8899aa 0%, #6c757d 100%);
+}
+
+/* Thông tin thêm */
+.counter-info {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 2px solid #e0e0e0;
+  font-size: 14px;
+  color: #666;
+}
+
+.counter-info strong {
+  font-weight: 700;
+  color: #667eea;
+  font-size: 16px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .counter-container {
+    padding: 15px 0;
+  }
+
+  .counter-card .card-body {
+    padding: 40px 30px;
+  }
+
+  .counter-title {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .counter-description {
+    font-size: 15px;
+  }
+
+  .counter-display {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+  }
+
+  .counter-value {
+    font-size: 60px;
+  }
+
+  .counter-btn {
+    font-size: 14px;
+    padding: 10px 15px !important;
+  }
+
+  .counter-info {
+    font-size: 13px;
+  }
+
+  .counter-info strong {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .counter-container {
+    padding: 10px 0;
+  }
+
+  .counter-card .card-body {
+    padding: 30px 20px;
+  }
+
+  .counter-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .counter-description {
+    font-size: 14px;
+  }
+
+  .counter-display {
+    padding: 25px 12px;
+    margin-bottom: 25px;
+  }
+
+  .counter-value {
+    font-size: 48px;
+    letter-spacing: -1px;
+  }
+
+  .counter-btn {
+    font-size: 13px;
+    padding: 9px 12px !important;
+  }
+
+  .counter-info {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .counter-info strong {
+    font-size: 14px;
+  }
+}
