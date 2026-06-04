@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Văn An",
+      "email": "an.nguyen@example.com",
+      "phone": "0901234567",
+      "role": "Admin",
+      "status": "active",
+      "createdAt": "2024-01-10"
+    },
+    {
+      "id": 2,
+      "fullName": "Trần Thị Bình",
+      "email": "binh.tran@example.com",
+      "phone": "0912345678",
+      "role": "User",
+      "status": "active",
+      "createdAt": "2024-01-12"
+    },
+    {
+      "id": 3,
+      "fullName": "Phạm Văn Cường",
+      "email": "cuong.pham@example.com",
+      "phone": "0923456789",
+      "role": "User",
+      "status": "inactive",
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": 4,
+      "fullName": "Hoàng Minh Đức",
+      "email": "duc.hoang@example.com",
+      "phone": "0934567890",
+      "role": "User",
+      "status": "active",
+      "createdAt": "2024-01-18"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456",
+      "userId": 1,
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "123456",
+      "userId": 2,
+      "role": "User"
+    }
+  ]
+}
